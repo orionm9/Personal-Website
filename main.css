@@ -1,0 +1,203 @@
+    /* ViewPort*/
+    
+    @-ms-viewport {
+        width: device-width;
+    }
+    
+    @media screen and (max-width: 480px) {
+        html,
+        body {
+            min-width: 320px;
+        }
+    }
+    
+    @media screen and (max-width: 1680px) {
+        html {
+            font-size: 12pt;
+        }
+    }
+    
+    @media screen and (max-width: 1280px) {
+        html {
+            font-size: 11pt;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        html {
+            font-size: 10pt;
+        }
+    }
+    /*html font color*/
+    
+    html {
+        font-size: 16pt;
+        color: white;
+    }
+    /* Navbar container */
+    
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: "Merriweather", Georgia, serif;
+    }
+    /* Links inside the navbar */
+    
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /* The dropdown container */
+    
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    /* Dropdown button */
+    
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        /* Important for vertical align on mobile phones */
+        margin: 0;
+        /* Important for vertical align on mobile phones */
+    }
+    /* Add a red background color to navbar links on hover */
+    
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: blue;
+    }
+    /* Dropdown content (hidden by default) */
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    /* Links inside the dropdown */
+    
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    /* Add a grey background color to dropdown links on hover */
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    /* Show the dropdown menu on hover */
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* End of Nav bar*/
+    /* setting background fon, color, & image */
+    
+    body {
+        background-color: rgba(37, 35, 35, 0.267);
+        background-image: url("images/bg.jpg");
+        font-family: "Merriweather", Georgia, serif;
+    }
+    
+    #myDark {
+        background-color: grey;
+        border-radius: 34px;
+    }
+    /* setting dark mode */
+    
+    body.dark {
+        background-image: url("images/whitebg.jpg");
+        font-family: "Merriweather", Georgia, serif;
+        color: black;
+    }
+    
+    body.dark #myDark {
+        background-color: white;
+        border-radius: 34px;
+    }
+    
+    body.dark .navbar {
+        overflow: hidden;
+        background-color: gray;
+        font-family: "Merriweather", Georgia, serif;
+    }
+    
+    body.dark .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: rgb(97, 235, 159);
+    }
+    /* setting the picture size for each page so the  */
+    
+    .Me {
+        max-width: 30%;
+        max-height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .cubing {
+        max-width: 30%;
+        max-height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .gym {
+        max-width: 30%;
+        max-height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .cars1 {
+        width: 25%;
+        height: 25%;
+        display: inline-block;
+        margin-left: auto;
+        padding: 20px;
+    }
+    
+    .cars2 {
+        width: 30%;
+        height: 30%;
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    .cars3 {
+        width: 30%;
+        height: 30%;
+        display: inline-block;
+        margin-left: auto;
+        padding: 20px;
+    }
+    
+    h1,
+    p {
+        font-family: "Merriweather", Georgia, serif;
+        text-align: center;
+    }
+    
+    footer {
+        display: block;
+    }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Orion Moreno</title>
+</head>
+
+<body>
+
+    <!-- Intro -->
+    <div id="Intro">
+        <h1>My 1st Website!
+            <button title="Toggle dark/light mode" id="myDark">&#128161;
+            </button>
+        </h1>
+        <!-- Nav -->
+        <div class="navbar">
+            <a href="index.html">About Me</a>
+            <a href="contact.html">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">My Interest
+            <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="cube.html">Cubing</a>
+                    <a href="gym.html">Gym</a>
+                    <a href="cars.html">Cars</a>
+                </div>
+            </div>
+        </div>
+        <p>Welcome, I am currently a senior in Computer Science @ New Mexico State University. You can check out my projects @ <a target=" " href="https://github.com/orionm9">GitHub.</a> This website is to showcase my projects and abilities.
+        </p>
+        <img class="Me" src="images/me.jpg" alt="Pic of me">
+        <p> I am from Lordsburg, NM where I lived my whole life and came to NMSU after I graduated high school in 2016. I have 2 little brothers one brother is in high school and the other is going to the Navy. I also have a little sister who also goes to
+            NMSU. In September 2019, my fiancè and myself had our daughter. After college graduation, I will be moving to Tucson, AZ to work for Raytheon. I got this job from going to the career fair Last Fall semester (2019). I am very excited to see
+            what the future holds.</p>
+    </div>
+    <script>
+        document.getElementById("myDark").onclick = function() {
+            document.getElementsByTagName("body")[0].classList.toggle("dark");
+        };
+    </script>
+    <!-- Footer -->
+    <footer id="footer">
+        <p>Posted by: Orion Moreno</p>
+    </footer>
+</body>
+
+</html>
